@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEAEAEA"
+    tools:context=".daily.DailyPageActivity">
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rcv_dailyList"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+   </android.support.v7.widget.RecyclerView>
+
+   <android.support.design.widget.FloatingActionButton
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:id="@+id/fab_floatingActionButton"
+       android:layout_width="56dp"
+       android:layout_height="56dp"
+       android:layout_marginRight="23dp"
+       android:layout_marginBottom="18dp"
+       android:src="@drawable/ic_add_white" />
+
+</RelativeLayout>
